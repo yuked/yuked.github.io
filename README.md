@@ -15,8 +15,8 @@ GitHub streak（GitHub 连续打卡）
 GitHub Readme Activity Graph（GitHub 活动统计图）
 <div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=yuked&theme=xcode" /> </div>  
 
-<img src="https://img.shields.io/badge/python-3.9-orange" />
-<img src="https://img.shields.io/badge/python-3.9-orange?style=for-the-badge&logo=python&logoColor=orange" />
+<div align="center"><img src="https://img.shields.io/badge/python-3.10-orange" /> </div>  
+<div align="center"><img src="https://img.shields.io/badge/python-3.10-orange?style=for-the-badge&logo=python&logoColor=orange" /> </div>  
 
 
 首页计数器
