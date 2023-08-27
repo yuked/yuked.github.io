@@ -15,18 +15,17 @@ GitHub streak（GitHub 连续打卡）
 GitHub Readme Activity Graph（GitHub 活动统计图）
 <div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=yuked&theme=xcode" /> </div>  
 
-https://img.shields.io/badge/python-3.9-orange
-https://img.shields.io/badge/python-3.9-orange?style=for-the-badge&logo=python&logoColor=orange
+<img src="https://img.shields.io/badge/python-3.9-orange" />
+<img src="https://img.shields.io/badge/python-3.9-orange?style=for-the-badge&logo=python&logoColor=orange" />
+
 
 首页计数器
-<div align="center"> <img src="https://visitor-badge.glitch.me/badge?page_id=yuked" /> </div>
-
 <div align="center"> <img src="https://profile-counter.glitch.me/yuked/count.svg" /> </div>
 
 打字特效
 <div align="center"> <img src="https://readme-typing-svg.herokuapp.com/?lines=哈哈哈哈哈哈哈哈哈哈哈哈哈&center=true&font=Roboto&size=27" /></div>
 
-<div align="center"> <a href="https://blog.ytadx.cn/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=哈哈哈哈哈哈哈哈哈哈哈哈哈&center=true&size=27"> </a> </div>
+<div align="center"> <a href="https://blog.ytadx.cn/"> <img src="https://readme-typing-svg.herokuapp.com/?lines=啊啊啊啊啊啊啊啊啊啊&center=true&size=27"> </a> </div>
 
 
 
