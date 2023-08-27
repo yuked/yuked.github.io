@@ -18,7 +18,6 @@ GitHub Readme Activity Graph（GitHub 活动统计图）
 <div align="center"><img src="https://img.shields.io/badge/python-3.10-orange" /> </div>  
 <div align="center"><img src="https://img.shields.io/badge/python-3.10-orange?style=for-the-badge&logo=python&logoColor=orange" /> </div>  
 
-
 首页计数器
 <div align="center"> <img src="https://profile-counter.glitch.me/yuked/count.svg" /> </div>
 
