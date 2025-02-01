@@ -5,6 +5,7 @@
 - [项目展示](projects.md)
 - [博客](blog.md)
 - [联系我](contact.html)
+- [其他](others.html)
 
 Dear brother,
 
