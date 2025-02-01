@@ -1,3 +1,13 @@
+# 欢迎访问我的网站！
+
+## 导航
+
+- [首页](index.md)
+- [关于我](about.md)
+- [项目展示](projects.md)
+- [博客](blog.md)
+- [联系我](contact.md)
+
 Dear brother,
 
 If I did not give vent to my feelings every so often, then, I think, the boiler would burst.
