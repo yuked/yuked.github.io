@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系方式</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .contact-info div {
+            flex: 1;
+            min-width: 250px;
+            margin: 10px;
+        }
+
+        .contact-info h2 {
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+
+        .contact-info p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .social-media a {
+            font-size: 2rem;
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .social-media a:hover {
+            color: #007bff;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>联系方式</h1>
+        
+        <div class="contact-info">
+            <div>
+                <h2>我的地址</h2>
+                <p>北京市海淀区XX大街123号</p>
+            </div>
+            <div>
+                <h2>电子邮件</h2>
+                <p>yuked@example.com</p>
+            </div>
+            <div>
+                <h2>电话</h2>
+                <p>+86 123 456 7890</p>
+            </div>
+        </div>
+
+        <div class="social-media">
+            <a href="https://github.com/yuked" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yuked" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/yuked" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:yuked@example.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <div class="contact-form">
+            <h2>发送信息</h2>
+            <form action="your-server-endpoint" method="post">
+                <input type="text" name="name" placeholder="您的姓名" required>
+                <input type="email" name="email" placeholder="您的电子邮件" required>
+                <textarea name="message" rows="4" placeholder="留言内容" required></textarea>
+                <button type="submit">发送信息</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Yuked. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
