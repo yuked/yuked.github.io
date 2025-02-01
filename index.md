@@ -4,7 +4,7 @@
 - [关于我](about.md)
 - [项目展示](projects.md)
 - [博客](blog.md)
-- [联系我](contact.md)
+- [联系我](contact.html)
 
 Dear brother,
 
