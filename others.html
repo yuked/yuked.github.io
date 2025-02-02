@@ -7,28 +7,36 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: left;
+            text-align: center;
             margin-top: 50px;
-            padding-left: 20px; /* 页面左侧缩进 */
         }
-        p {
-            text-indent: 2em; /* 首行缩进 */
-            line-height: 1.6; /* 行间距 */
-            margin-bottom: 15px; /* 段落之间的间隔 */
+        #passwordForm {
+            text-align: center;
+        }
+        #content {
+            display: none;
+        }
+        #hint {
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <h1>私密页面</h1>
-    <p>请输入密码以访问此页面</p>
 
+    <!-- 提示信息 -->
+    <div id="hint">
+        <p>请输入密码以访问此页面</p>
+    </div>
+
+    <!-- 密码表单 -->
     <form id="passwordForm">
         <input type="password" id="password" placeholder="密码" required>
         <button type="submit">提交</button>
     </form>
 
-    <div id="content" style="display:none;">
-        <p>这是一个私密页面的内容。</p>
+    <!-- 私密内容 -->
+    <div id="content">
         <h2>关于我的破败的家族</h2>
         <p>我爷爷的父亲，也就是我的曾祖父叫丁贤乐，有几个兄弟：丁贤礼，丁贤民，丁贤高等，其中丁贤礼是我大爹。1949年-1950年时轰轰烈烈的打地主运动正在进行中，由于我们家是位于丁宕的大地主家族，因此也被打掉了，原有在丁宕的田地、房屋与财产被当地平民悉数瓜分，家族里面的成员也都被打散到了各个地方。</p>
         <p>但是由于我们家是好地主，没有行恶事，便也没有被枪毙，与之相反的是北森老爷家，他们家是胡家墩的地主，由于他们家做过保长（类似村支书），做过不少恶事，便被枪毙了。</p>
@@ -45,14 +53,18 @@
 
         const form = document.getElementById('passwordForm');
         const content = document.getElementById('content');
+        const hint = document.getElementById('hint');
 
         form.onsubmit = function(event) {
             event.preventDefault();  // 防止表单提交
             const password = document.getElementById('password').value;
 
             if (password === correctPassword) {
+                // 隐藏密码提示和表单
+                hint.style.display = "none";
+                form.style.display = "none";
+                // 显示私密内容
                 content.style.display = "block";
-                form.style.display = "none";  // 隐藏密码表单
             } else {
                 alert("密码错误，请重新输入！");
             }
