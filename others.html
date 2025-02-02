@@ -7,8 +7,14 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
+            text-align: left;
             margin-top: 50px;
+            padding-left: 20px; /* 页面左侧缩进 */
+        }
+        p {
+            text-indent: 2em; /* 首行缩进 */
+            line-height: 1.6; /* 行间距 */
+            margin-bottom: 15px; /* 段落之间的间隔 */
         }
     </style>
 </head>
@@ -31,7 +37,7 @@
 
         <h2>黄埔军校的五公公</h2>
         <p>我们家族有一个五公公，他志向参军报国，因此进入黄埔军校学习，加入共产党，后作为共产党卧底国民党，应该是国民党连长或者排长，最后与日军作战死老虎口。</p>
-        <p>家族没有被枪毙另一个原因是五公公在黄埔军校和周恩来等人有合照，免受波及，五公公似乎最后得知共产党打地主的消息，提前书信回家告知家里将田地悉数卖掉。</p>    
+        <p>家族没有被枪毙另一个原因是五公公在黄埔军校和周恩来等人有合照，免受波及，五公公似乎最后得知共产党打地主的消息，提前书信回家告知家里将田地悉数卖掉。</p>
     </div>
 
     <script>
@@ -45,7 +51,6 @@
             const password = document.getElementById('password').value;
 
             if (password === correctPassword) {
-                // 显示页面内容
                 content.style.display = "block";
                 form.style.display = "none";  // 隐藏密码表单
             } else {
